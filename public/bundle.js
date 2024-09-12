@@ -14,10 +14,12 @@ var App = /*#__PURE__*/function () {
   function App() {
     _classCallCheck(this, App);
   }
-  return _createClass(App, [{
+  return _createClass(App, null, [{
     key: "getName",
     value: function getName() {
       console.log("hello there !");
     }
   }]);
 }();
+new App.getName();
+console.log("Test Log");

@@ -3,7 +3,9 @@ const getUser = () => {
   "Amirhossein is developer";
 };
 class App {
-  getName() {
+  static getName() {
     console.log("hello there !");
   }
 }
+new App.getName();
+console.log("Test Log");
