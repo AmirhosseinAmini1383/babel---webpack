@@ -6,7 +6,7 @@
   "scripts": {
     "babel": "babel src/app.js -o public/bundle.js --presets @babel/preset-env --watch"
     ,
-    "build":"webpack ./src/app.js -o ./public --mode production"
+    "build":"webpack"
   },
   "author": "",
   "license": "ISC",
